@@ -1,0 +1,73 @@
+{
+  "name": "buding-pet",
+  "displayName": "布丁桌宠",
+  "description": "在 Cursor / VS Code 侧边栏养一只赤柴布丁，使用 Codex v2 精灵图集。",
+  "version": "0.1.0",
+  "publisher": "lixun",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onView:budingPet.view",
+    "onCommand:budingPet.show",
+    "onCommand:budingPet.setState"
+  ],
+  "main": "./src/extension.js",
+  "contributes": {
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "budingPet",
+          "title": "布丁",
+          "icon": "media/icon.svg"
+        }
+      ]
+    },
+    "views": {
+      "budingPet": [
+        {
+          "type": "webview",
+          "id": "budingPet.view",
+          "name": "布丁"
+        }
+      ]
+    },
+    "commands": [
+      {
+        "command": "budingPet.show",
+        "title": "布丁: 显示桌宠",
+        "category": "布丁"
+      },
+      {
+        "command": "budingPet.setState",
+        "title": "布丁: 切换动作",
+        "category": "布丁"
+      },
+      {
+        "command": "budingPet.wave",
+        "title": "布丁: 挥手",
+        "category": "布丁"
+      },
+      {
+        "command": "budingPet.work",
+        "title": "布丁: 工作（笔记本）",
+        "category": "布丁"
+      },
+      {
+        "command": "budingPet.idle",
+        "title": "布丁: 待机",
+        "category": "布丁"
+      }
+    ]
+  },
+  "scripts": {},
+  "keywords": [
+    "pet",
+    "buding",
+    "shiba",
+    "desktop pet"
+  ]
+}

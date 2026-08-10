@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "spriteVersionNumber": 2,
+  "run_dir": "C:\\Users\\lixun\\Projects\\buding-pet\\runs\\buding",
+  "spritesheet": "C:\\Users\\lixun\\Projects\\buding-pet\\runs\\buding\\final\\spritesheet-extended.webp",
+  "validation": "C:\\Users\\lixun\\Projects\\buding-pet\\runs\\buding\\final\\validation-extended.json",
+  "chroma_despill": "C:\\Users\\lixun\\Projects\\buding-pet\\runs\\buding\\qa\\chroma-despill-extended.json",
+  "contact_sheet": "C:\\Users\\lixun\\Projects\\buding-pet\\runs\\buding\\qa\\contact-sheet-extended.png",
+  "direction_sheet": "C:\\Users\\lixun\\Projects\\buding-pet\\runs\\buding\\qa\\look-directions.png",
+  "direction_semantics": "C:\\Users\\lixun\\Projects\\buding-pet\\runs\\buding\\qa\\direction-semantics.json",
+  "blind_direction_validation": "C:\\Users\\lixun\\Projects\\buding-pet\\runs\\buding\\qa\\direction-blind-validation.json",
+  "continuity": "C:\\Users\\lixun\\Projects\\buding-pet\\runs\\buding\\qa\\look-continuity.json",
+  "review": "C:\\Users\\lixun\\Projects\\buding-pet\\runs\\buding\\qa\\review.json",
+  "package": "C:\\Users\\lixun\\.codex\\pets\\buding",
+  "alternates": {
+    "running_with_laptop": "C:\\Users\\lixun\\Projects\\buding-pet\\runs\\buding\\decoded\\alternates\\running-with-laptop.png",
+    "running_no_laptop": "C:\\Users\\lixun\\Projects\\buding-pet\\runs\\buding\\decoded\\alternates\\running-no-laptop.png"
+  }
+}

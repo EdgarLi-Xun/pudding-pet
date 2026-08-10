@@ -1,0 +1,24 @@
+{
+  "ok": true,
+  "chroma_key": {
+    "hex": "#0000FF",
+    "rgb": [
+      0,
+      0,
+      255
+    ],
+    "threshold": 96.0
+  },
+  "rows": [
+    {
+      "state": "waving",
+      "frames": [
+        "C:\\Users\\lixun\\Projects\\buding-pet\\runs\\buding\\qa\\rows\\waving\\frames\\waving\\00.png",
+        "C:\\Users\\lixun\\Projects\\buding-pet\\runs\\buding\\qa\\rows\\waving\\frames\\waving\\01.png",
+        "C:\\Users\\lixun\\Projects\\buding-pet\\runs\\buding\\qa\\rows\\waving\\frames\\waving\\02.png",
+        "C:\\Users\\lixun\\Projects\\buding-pet\\runs\\buding\\qa\\rows\\waving\\frames\\waving\\03.png"
+      ],
+      "method": "components"
+    }
+  ]
+}
